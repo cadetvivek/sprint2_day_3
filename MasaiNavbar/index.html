@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai School</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+     .container{
+        background-color: antiquewhite;
+        border-style: solid;
+     }
+      .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar img {
+        width: 140px;
+        cursor: pointer;
+      }
+      .navMid li {
+        list-style: none;
+      }
+      .navMid a {
+        text-decoration: none;
+        color: black;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      .navMid a:hover{
+       color: red;
+      }
+      .navMid {
+        display: flex;
+      }
+      .rightButton {
+        margin-right: 5px;
+        padding: 10px 20px;
+      }
+      #big-btn {
+        background-color: rgb(154, 220, 255);
+        width: 120px;
+        height: 50px;
+        color: blueviolet;
+        font-weight: 800;
+        border-radius: 10px;
+        cursor: pointer;
+
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      #small-btn {
+        border-color: red;
+        width: 80px;
+        height: 50px;
+        color: red;
+        font-weight: 800;
+        border-radius: 10px;
+        cursor: pointer;
+
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+     
+      <div class="navbar">
+        <div class="logo">
+          <img
+            src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp"
+            alt="Masai School"
+          />
+        </div>
+        <div class="navMid">
+          <li><a href="#">COURSE ▼</a></li>
+          <li><a href="#">FEES</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">LEARN</a></li>
+          <li><a style="color: red;">SUCSESS STORIES</a></li>
+          <li><a href="#">HIRE FROM US</a></li>
+        </div>
+        <div class="rightButton">
+          <button id="big-btn">REFER & EARN</button>
+          <button id="small-btn">SIGN UP</button>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
